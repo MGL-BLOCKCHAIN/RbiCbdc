@@ -2,8 +2,8 @@ const { ethers } = require('ethers');
 const crypto = require('crypto');
 
 // Set up the provider and wallet
-const provider = new ethers.JsonRpcProvider('https://eth-sepolia.g.alchemy.com/v2/ieKltUTO99WB-tFYz6IlH6odf_t8pei5');
-const privateKey = '6a9e9bb1f9cc6ae80a7bb6d89c88ccf85dccf7c7ac41a3863a35ca7adba90170';
+const provider = new ethers.JsonRpcProvider('************************************************************');
+const privateKey = '************************************************************';
 const wallet = new ethers.Wallet(privateKey, provider);
 
 // Contract address and ABI
